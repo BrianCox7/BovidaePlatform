@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bovidae.Core", "Bovidae.Core.csproj", "{B1436492-7E16-4EA7-B248-A47FDAEAC50C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bovidae.Audio", "Bovidae.Audio.csproj", "{E21FFC91-63A5-45C3-B33F-2EF7E8F1CD4B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1436492-7E16-4EA7-B248-A47FDAEAC50C} = {B1436492-7E16-4EA7-B248-A47FDAEAC50C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1436492-7E16-4EA7-B248-A47FDAEAC50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1436492-7E16-4EA7-B248-A47FDAEAC50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1436492-7E16-4EA7-B248-A47FDAEAC50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1436492-7E16-4EA7-B248-A47FDAEAC50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21FFC91-63A5-45C3-B33F-2EF7E8F1CD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21FFC91-63A5-45C3-B33F-2EF7E8F1CD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21FFC91-63A5-45C3-B33F-2EF7E8F1CD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21FFC91-63A5-45C3-B33F-2EF7E8F1CD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
